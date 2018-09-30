@@ -1,32 +1,24 @@
-# Mobile Web Specialist Certification Course
+# Udacity Restaurant Reviews project
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
 
 ## Project Overview: Stage 1
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+This was a project assigned by the Udacity front-end nano-degreee. The object of the project was to take a
+restaurant reviews website and make it responsive on all screens, while also achieving accessibility standards.
+A secondary objective was to implement a service worker to cache the files of the site in a way so that the site will be available offline if previously visited.
 
-### Specification
+### To view the project
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
-
-### What do I do from here?
-
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
-
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+To view the project you will need to have python installed on your machine. If you're going to run
+the project on a mac, then python will come preinstalled. If the machine you're on is running windows,
+then follow these instructions : "https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html".
+Once you have python installed, clone the github repository with the project to your machine.
+Navigate to the folder with your terminal and launch a python server with the command "python -m SimpleHTTPServer 8000". This will launch a server hosting the project. The last step is to go to your favorite browser, and type in "localhost:8000" into the url bar. This will bring up a version of the site that you can view and play with.
 
 ## Leaflet.js and Mapbox:
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/).
 
-### Note about ES6
+### Resources used for project
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+For a lot of the project, I googled small solutions to problems as they arose. However for getting started and for understanding the service worker I used Mathew Crawford's, walkthrough blog, Doug Brown's tutorial, and "Service Workers: and Introduction" by Matt Gaunt.
