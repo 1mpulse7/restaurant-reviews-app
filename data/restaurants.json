@@ -4,6 +4,7 @@
     "name": "Mission Chinese Food",
     "neighborhood": "Manhattan",
     "photograph": "1.jpg",
+    "alt": "image portrays an elegant dining room  full of patrons at Mission Chinese Food",
     "address": "171 E Broadway, New York, NY 10002",
     "latlng": {
       "lat": 40.713829,
@@ -41,6 +42,7 @@
   }, {
     "id": 2,
     "name": "Emily's",
+    "alt": "image is of one of Emily's famous personal pizza's",
     "neighborhood": "Brooklyn",
     "photograph": "2.jpg",
     "address": "919 Fulton St, Brooklyn, NY 11238",
@@ -80,6 +82,7 @@
   }, {
     "id": 3,
     "name": "Kang Ho Dong Baekjeong",
+    "alt": "image shows a sleek dining room with wooden tables and chairs",
     "neighborhood": "Manhattan",
     "photograph": "3.jpg",
     "address": "1 E 32nd St, New York, NY 10016",
@@ -119,6 +122,7 @@
   }, {
     "id": 4,
     "name": "Katz's Delicatessen",
+    "alt": "bustling street corner showing Katz's from a outside the restaurant",
     "neighborhood": "Manhattan",
     "photograph": "4.jpg",
     "address": "205 E Houston St, New York, NY 10002",
@@ -158,6 +162,7 @@
   }, {
     "id": 5,
     "name": "Roberta's Pizza",
+    "alt" : "shows cozy, cafeteria style pizzaria",
     "neighborhood": "Brooklyn",
     "photograph": "5.jpg",
     "address": "261 Moore St, Brooklyn, NY 11206",
@@ -197,6 +202,7 @@
   }, {
     "id": 6,
     "name": "Hometown BBQ",
+    "alt": "picture of an open and spacious dining room with a relaxed enviroment",
     "neighborhood": "Brooklyn",
     "photograph": "6.jpg",
     "address": "454 Van Brunt St, Brooklyn, NY 11231",
@@ -236,6 +242,7 @@
   }, {
     "id": 7,
     "name": "Superiority Burger",
+    "alt": "streetside view of Superiority Burger",
     "neighborhood": "Manhattan",
     "photograph": "7.jpg",
     "address": "430 E 9th St, New York, NY 10009",
@@ -275,6 +282,7 @@
   }, {
     "id": 8,
     "name": "The Dutch",
+    "alt": "streetside view of The Dutch",
     "neighborhood": "Manhattan",
     "photograph": "8.jpg",
     "address": "131 Sullivan St, New York, NY 10012",
@@ -314,6 +322,7 @@
   }, {
     "id": 9,
     "name": "Mu Ramen",
+    "alt": "picture of young people devouring Mu's Ramen",
     "neighborhood": "Queens",
     "photograph": "9.jpg",
     "address": "1209 Jackson Ave, Queens, NY 11101",
@@ -353,6 +362,7 @@
   }, {
     "id": 10,
     "name": "Casa Enrique",
+    "alt": "image of a smooth stainless steel bartop with white chairs",
     "neighborhood": "Queens",
     "photograph": "10.jpg",
     "address": "5-48 49th Ave, Queens, NY 11101",
