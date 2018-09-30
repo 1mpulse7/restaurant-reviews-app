@@ -17,11 +17,11 @@
   <header>
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="/" tabindex='1'>Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
+    <ul id="breadcrumb" tabindex='1'>
+      <li><a href="/" tabindex='1'>Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
@@ -31,21 +31,21 @@
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
+    <section id="map-container" tabindex='0'>
+      <div id="map" tabindex='0'></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
-      <img id="restaurant-img">
-      <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
+    <section id="restaurant-container" tabindex='1'>
+      <h2 id="restaurant-name" tabindex='1'></h2>
+      <img id="restaurant-img" tabindex='1'>
+      <p id="restaurant-cuisine" tabindex='1'></p>
+      <p id="restaurant-address" tabindex='1'></p>
+      <table id="restaurant-hours" tabindex='1'></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
-    <section id="reviews-container">
+    <section id="reviews-container" tabindex='1'>
       <ul id="reviews-list"></ul>
     </section>
     <!-- End reviews -->
